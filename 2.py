@@ -25,3 +25,5 @@ df.show()
 spark.stop()
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
+df1 = df.withColumn("Salary",col("salary"*96))
+df1.display()
