@@ -19,3 +19,10 @@ data = "mylasivakumar9@gmail.com"
 mask = data.split("@")
 print((mask)[0])
 print((mask)[-1])
+
+class swedbank:
+
+    def __init__(self,tech,domain):
+        self.tech = tech
+        self.domain = domain
+    def fx1
