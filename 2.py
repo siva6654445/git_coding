@@ -26,4 +26,11 @@ spark.stop()
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
 df1 = df.withColumn("Salary",col("salary"*96))
-df1.display()
+--df1.display()
+data = [1,3,4,5,6,7,9]
+
+for i in data:
+    if i > 9:
+        print(i)
+    else:
+        "mone"
