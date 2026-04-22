@@ -25,4 +25,13 @@ class swedbank:
     def __init__(self,tech,domain):
         self.tech = tech
         self.domain = domain
-    def fx1
+    
+
+    def fx1(self):
+        print(f"odi is still used instead of '{tech}'")
+    
+
+o1 = swedbank('snowflake','ai')
+q=o1.fx1()
+print(q)
+print('feature_1')
